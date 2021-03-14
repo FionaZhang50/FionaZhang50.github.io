@@ -16,6 +16,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: antiquewhite;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 li {
