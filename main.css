@@ -20,9 +20,12 @@ ul {
   position: sticky;
   top: 0;
 }
+img {
+  text-align: center;
+}
 
 li {
-  float: left;
+  float: center;
 }
 
 li a {
