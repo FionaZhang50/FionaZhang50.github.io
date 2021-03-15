@@ -21,9 +21,9 @@ ul {
   top: 0;
 }
 img {
-  text-align: center;
+  width: 25%;
+  height: auto;
 }
-
 li {
   float: left;
 }
