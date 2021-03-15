@@ -3,7 +3,7 @@ body {
 }
 h1 {
   color: navy;
-  font-family: 'Abril Fatface';font-size: 22px;
+  font-family: 'Abril Fatface';font-size: 40px;
   text-align: center
 }
 p {
@@ -15,7 +15,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: antiquewhite;
+  background-color: #f2e6ff;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -37,11 +37,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: mediumpurple;
+  background-color: lightsteelblue;
 }
 
 .active {
-  background-color: #f2e6ff;
+  background-color: mediumpurple;
 }
 li {
   border-right: 1px solid #bbb;
