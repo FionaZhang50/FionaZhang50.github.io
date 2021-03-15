@@ -1,5 +1,5 @@
 body {
-  background-color: thistle;
+  background-color: powderblue;
 }
 h1 {
   color: navy;
@@ -37,11 +37,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: burlywood;
+  background-color: mediumpurple;
 }
 
 .active {
-  background-color: lightblue;
+  background-color: #f2e6ff;
 }
 li {
   border-right: 1px solid #bbb;
