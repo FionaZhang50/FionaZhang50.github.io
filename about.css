@@ -1,3 +1,57 @@
-p{
-font-family: 'Poppins', sans-serif;
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: navy;
+  font-family: 'Abril Fatface';font-size: 40px;
+  text-align: center;
+  background-color: powderblue;
+  padding: 20px 22px;
+}
+p {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; font-size: 30p;
+  text-align: center;
+x;    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2e6ff;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+img {
+  width: 50%;
+  height: auto;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: navy;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #cebfef;
+}
+
+.active {
+  background-color: mediumpurple;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
