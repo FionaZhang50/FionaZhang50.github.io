@@ -4,7 +4,8 @@ body {
 h1 {
   color: navy;
   font-family: 'Abril Fatface';font-size: 40px;
-  text-align: center
+  text-align: center;
+  background-color: powderblue;
 }
 p {
   color: black;
