@@ -33,6 +33,9 @@ ul {
   margin-right: auto;
   width: 50%;
 }
+img {
+	width: 40%;
+}
 li {
   float: right;
 }
