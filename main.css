@@ -26,16 +26,6 @@ pre {
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-  background-color: #f2e6ff;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
 .center {
   display: block;
   margin-left: auto;
@@ -50,6 +40,13 @@ img {
   border-right: 1px solid #bbb;
 width: 100%; 
 overflow: auto;
+	list-style-type: none;
+	  margin: 0;
+  padding: 0;
+	  background-color: #f2e6ff;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .navbar a {
