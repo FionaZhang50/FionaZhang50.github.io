@@ -36,7 +36,7 @@ img {
 	width: 30%;
 }
 .navbar {
-  float: left;
+  float: center;
   border-right: 1px solid #bbb;
 	overflow: hidden;
   margin: 0;
