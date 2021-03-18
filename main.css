@@ -38,7 +38,7 @@ img {
 .navbar {
   float: left;
   border-right: 1px solid #bbb;
-	overflow: auto;
+	overflow: hidden;
 list-style-type: none;
   margin: 0;
   padding: 0;
@@ -46,6 +46,7 @@ list-style-type: none;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+	width: 100%;
 }
 
 .navbar a {
