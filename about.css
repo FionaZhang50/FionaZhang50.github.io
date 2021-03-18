@@ -26,8 +26,9 @@ ul {
 }
 img {
   border-radius: 100%;
-  width: 50%;
+  width: 40%;
   height: auto;
+  vertical-align: middle;
 }
 .center {
   display: block;
