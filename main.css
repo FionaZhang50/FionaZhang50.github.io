@@ -36,6 +36,7 @@ ul {
   position: sticky;
   top: 0;
 	width: 25%;
+	text-align: center;
 }
 .center {
   display: block;
