@@ -45,30 +45,27 @@ ul {
 img {
 	width: 30%;
 }
-li {
+.navbar {
   float: left;
+  border-right: 1px solid #bbb;
+width: 100%; 
+overflow: auto;
 }
 
-li a {
+.navbar a {
   display: block;
   color: navy;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-	width: 25%;
+width: 25%;
 }
-
-li a:hover:not(.active) {
+.navbar a:hover:not(.active) {
   background-color: #cebfef;
 }
-
-.active {
+.navbar a.active {
   background-color: mediumpurple;
 }
-li {
-  border-right: 1px solid #bbb;
-}
-
-li:last-child {
+.navbar:last-child {
   border-right: none;
 }
