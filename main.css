@@ -55,6 +55,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+width: 25%;
 }
 
 li a:hover:not(.active) {
