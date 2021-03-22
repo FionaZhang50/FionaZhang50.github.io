@@ -65,3 +65,6 @@ img {
 .navbar:last-child {
   border-right: none;
 }
+.navbar li{
+  display: inline;
+}
