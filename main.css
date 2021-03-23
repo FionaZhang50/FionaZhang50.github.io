@@ -36,7 +36,6 @@ img {
 	width: 30%;
 }
 .navbar {
-  float: center;
   border-right: 1px solid #bbb;
 	overflow: hidden;
   margin: 0;
@@ -55,6 +54,7 @@ img {
   text-align: center;
   padding: 14px 16px;
   width: 25%;
+	  float: left;
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
