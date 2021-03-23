@@ -37,7 +37,7 @@ img {
 }
 .navbar {
   border-right: 1px solid #bbb;
-  overflow: auto;
+  overflow: hidden;
   background-color: #f2e6ff;
   position: -webkit-sticky; /* Safari */
   position: sticky;
