@@ -53,6 +53,7 @@ img {
   float: left;
   text-decoration: none;
   border-right: 1px solid #bbb;
+	width: 25%;
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
