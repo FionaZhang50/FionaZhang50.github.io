@@ -36,7 +36,6 @@ img {
 	width: 30%;
 }
 .navbar {
-  border-right: 1px solid #bbb;
   overflow: hidden;
   background-color: #f2e6ff;
   position: -webkit-sticky; /* Safari */
@@ -53,6 +52,7 @@ img {
   padding: 14px 16px;
   float: left;
   text-decoration: none;
+  border-right: 1px solid #bbb;
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
