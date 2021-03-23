@@ -52,7 +52,8 @@ img {
   text-align: center;
   padding: 14px 16px;
   width: 25%;
-	  float: left;
+  float: left;
+  text-decoration: none;
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
