@@ -37,15 +37,15 @@ img {
 }
 .navbar {
   border-right: 1px solid #bbb;
-	overflow: hidden;
+  overflow: auto;
   margin: 0;
   padding: 0;
   background-color: #f2e6ff;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-	width: 100%;
-	list-style-type: none;
+  width: 100%;
+  list-style-type: none;
 }
 
 .navbar a {
