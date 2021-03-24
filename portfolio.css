@@ -67,3 +67,35 @@ h1 {
   background-color: #666;
    color: white;
 }
+.navbar {
+  overflow: hidden;
+  background-color: #f2e6ff;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.navbar a {
+  display: block;
+  color: navy;
+  text-align: center;
+  padding: 14px 16px;
+  float: left;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+.navbar a:hover:not(.active2) {
+  background-color: #cebfef;
+}
+.navbar a.active2 {
+  background-color: mediumpurple;
+}
+.navbar:last-child {
+  border-right: none;
+}
+.navbar li{
+  display: inline;
+}
+
