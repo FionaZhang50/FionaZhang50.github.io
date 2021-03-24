@@ -8,15 +8,6 @@ h1 {
   background-color: powderblue;
   padding: 50px;
 }
-p {
-  color: white;
-  text-align: center;
-  font-family: 'Poppins', sans-serif; font-size: 30px;
-	text-shadow: -1px 1px 2px #000,
-				  1px 1px 2px #000,
-				  1px -1px 0 #000,
-				  -1px -1px 0 #000;
-}
 pre {
   color: white;
   text-align: center;
