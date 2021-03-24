@@ -3,9 +3,25 @@
 }
 
 body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
+  background-color: powderblue;
+}
+h1 {
+  color: navy;
+  font-family: 'Abril Fatface';font-size: 40px;
+  text-align: center;
+  background-color: powderblue;
+  padding: 50px;
+    font-size: 50px;
+  word-break: break-all;
+}
+p {
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; font-size: 30px;
+	text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 /* Center website */
@@ -13,12 +29,6 @@ body {
   max-width: 1000px;
   margin: auto;
 }
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
 .row {
   margin: 8px -16px;
 }
