@@ -14,16 +14,6 @@ p {
   font-family: 'Poppins', sans-serif; font-size: 30px;
   text-align: center; 
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f2e6ff;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
 img {
   border-radius: 100%;
   width: 40%;
@@ -36,29 +26,30 @@ img {
   margin-right: auto;
   width: 50%;
 }
-li {
-  float: left;
+.navbar {
+  overflow: hidden;
+  background-color: #f2e6ff;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
 }
 
-li a {
+.navbar a {
   display: block;
   color: navy;
   text-align: center;
   padding: 14px 16px;
+  float: left;
   text-decoration: none;
 }
-
-li a:hover:not(.active) {
+.navbar a:hover:not(.active) {
   background-color: #cebfef;
 }
-
-.active {
+.navbar a.active {
   background-color: mediumpurple;
 }
-li {
-  border-right: 1px solid #bbb;
-}
-
-li:last-child {
-  border-right: none;
+.navbar li{
+  display: inline;
 }
