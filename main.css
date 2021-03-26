@@ -34,14 +34,15 @@ img {
   top: 0;
   width: 100%;
   list-style-type: none;
+  text-align:center;
 }
 
 .navbar a {
-  display: block;
   color: navy;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display:inline-block;
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
