@@ -50,7 +50,6 @@ img {
 }
 .navbar a.active {
   background-color: mediumpurple;
-	  padding: 10px;
 }
 .navbar li{
   display: inline;
