@@ -47,9 +47,13 @@ img {
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
+	padding-right: 5px;
+padding-left: 5px;
 }
 .navbar a.active {
   background-color: mediumpurple;
+	padding-right: 5px;
+padding-left: 5px;
 }
 .navbar li{
   display: inline;
