@@ -39,6 +39,7 @@ img {
 }
 
 .navbar a {
+  display: block;
   color: navy;
   padding: 14px 16px;
   text-decoration: none;
@@ -50,5 +51,5 @@ img {
   background-color: mediumpurple;
 }
 .navbar li{
-  display: inline-block;
+  display: inline;
 }
