@@ -83,18 +83,14 @@ h2{
   color: navy;
   text-align: center;
   padding: 14px 16px;
-  float: left;
+  float: right;
   text-decoration: none;
-  border-right: 1px solid #bbb;
 }
 .navbar a:hover:not(.active2) {
   background-color: #cebfef;
 }
 .navbar a.active2 {
   background-color: mediumpurple;
-}
-.navbar:last-child {
-  border-right: none;
 }
 .navbar li{
   display: inline;
