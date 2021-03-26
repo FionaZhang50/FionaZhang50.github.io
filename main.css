@@ -43,16 +43,12 @@ img {
   padding: 14px 16px;
   float: left;
   text-decoration: none;
-  border-right: 1px solid #bbb;
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
 }
 .navbar a.active {
   background-color: mediumpurple;
-}
-.navbar:last-child {
-  border-right: none;
 }
 .navbar li{
   display: inline;
