@@ -36,7 +36,6 @@ img {
   list-style-type: none;
 	  display: flex;
   justify-content: space-around;
-	  border-right: 1px solid #bbb;
 }
 
 .navbar a {
@@ -47,16 +46,15 @@ img {
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
-	padding-right: 5px;
-padding-left: 5px;
+	  padding: 10px;
 }
 .navbar a.active {
   background-color: mediumpurple;
-	padding-right: 5px;
-padding-left: 5px;
+	  padding: 10px;
 }
 .navbar li{
   display: inline;
+border-right: 1px solid #bbb;
 }
 .navbar li:last-child {
   border-right: none;
