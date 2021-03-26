@@ -50,5 +50,5 @@ img {
   background-color: mediumpurple;
 }
 .navbar li{
-  display: inline;
+  display: inline-block;
 }
