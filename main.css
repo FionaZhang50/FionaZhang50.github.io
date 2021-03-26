@@ -54,8 +54,4 @@ img {
 }
 .navbar li{
   display: inline;
-border-right: 1px solid #bbb;
-}
-.navbar li:last-child {
-  border-right: none;
 }
