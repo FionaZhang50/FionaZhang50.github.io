@@ -36,6 +36,7 @@ img {
   list-style-type: none;
 	  display: flex;
   justify-content: space-around;
+	  border-right: 1px solid #bbb;
 }
 
 .navbar a {
@@ -52,4 +53,7 @@ img {
 }
 .navbar li{
   display: inline;
+}
+.navbar li:last-child {
+  border-right: none;
 }
