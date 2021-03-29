@@ -83,8 +83,9 @@ h2{
   color: navy;
   text-align: center;
   padding: 14px 16px;
-  float: right;
   text-decoration: none;
+		  display: flex;
+  justify-content: space-around;
 }
 .navbar a:hover:not(.active2) {
   background-color: #cebfef;
