@@ -46,7 +46,6 @@ img {
 }
 .navbar a:hover:not(.active) {
   background-color: #cebfef;
-	  padding: 10px;
 }
 .navbar a.active {
   background-color: mediumpurple;
