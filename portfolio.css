@@ -89,7 +89,7 @@ h2{
    text-align: center;
 }
 .row {
-  display: flex;
+    margin: 10px -16px;
 }
 
 .row,
@@ -99,8 +99,9 @@ h2{
 
 
 .column {
-	flex: 33.33%;
-	padding: 5px;
+  float: left;
+  width: 33.33%;
+  display: none; 
 }
 
 .row:after {
