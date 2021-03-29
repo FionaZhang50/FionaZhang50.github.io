@@ -76,16 +76,15 @@ h2{
   top: 0;
   width: 100%;
   list-style-type: none;
+			  display: flex;
+  justify-content: space-around;
 }
 
 .navbar a {
   display: block;
   color: navy;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-		  display: flex;
-  justify-content: space-around;
 }
 .navbar a:hover:not(.active2) {
   background-color: #cebfef;
