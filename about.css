@@ -34,6 +34,8 @@ img {
   top: 0;
   width: 100%;
   list-style-type: none;
+  	  display: flex;
+  justify-content: space-around;
 }
 
 .navbar a {
@@ -41,7 +43,6 @@ img {
   color: navy;
   text-align: center;
   padding: 14px 16px;
-  float: left;
   text-decoration: none;
 }
 .navbar a:hover:not(.active) {
