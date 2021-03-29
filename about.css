@@ -6,7 +6,9 @@ h1 {
   font-family: 'Abril Fatface';font-size: 40px;
   text-align: center;
   background-color: powderblue;
-  padding: 20px 22px;
+    padding: 25px;
+margin-top:0;
+margin-bottom:0;
 }
 p {
   color: black;
