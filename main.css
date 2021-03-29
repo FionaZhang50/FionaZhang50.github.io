@@ -6,9 +6,9 @@ h1 {
   font-family: 'Abril Fatface';font-size: 40px;
   text-align: center;
   background-color: powderblue;
-  padding: 10px;
-	margin-top:0;
-	margin-bottom:0;
+  padding: 15px;
+margin-top:0;
+margin-bottom:0;
 }
 p {
   color: white;
@@ -33,7 +33,6 @@ img {
   background-color: #f2e6ff;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-margin-top:0;
   width: 100%;
   list-style-type: none;
 	  display: flex;
