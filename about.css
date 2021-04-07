@@ -17,7 +17,10 @@ p {
   text-align: center; 
 }
 img {
+  float: left;
   border-radius: 50%;
+  width:50%;
+  height: auto;
 }
 
 .navbar {
