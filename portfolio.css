@@ -89,14 +89,8 @@ h2{
    text-align: center;
 }
 .row {
-    margin: 5px -16px;
+    margin: 10px -16px;
 }
-
-.row,
-.row > .column {
-  padding: 8px;
-}
-
 
 .column {
 	display: flex;
