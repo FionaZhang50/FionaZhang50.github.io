@@ -16,18 +16,22 @@ p {
   font-family: 'Poppins', sans-serif; font-size: 30px;
   text-align: center; 
 }
+
 img {
-  border-radius: 100%;
-  width: 40%;
-  height: auto;
-  vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
 }
+
 .navbar {
   overflow: hidden;
   background-color: #f2e6ff;
