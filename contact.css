@@ -65,14 +65,13 @@ img {
   padding: 10px;
 }
 input[type=text], select, textarea {
-  text-align: right;
-    width: 50%;
+    width: 200px;
   height: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 2px;
   box-sizing: border-box;
 }
 
