@@ -62,9 +62,9 @@ img {
   padding: 10px;
 }
 input[type=text], select, textarea {
-    width: 75%;
+    width: 200;
   padding: 12px 20px;
-  margin: 8px 10;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
