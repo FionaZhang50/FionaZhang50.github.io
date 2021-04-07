@@ -89,14 +89,12 @@ h2{
    text-align: center;
 }
 .row {
-    margin: 10px -16px;
+    margin: 5px -16px;
 }
 
 .row,
 .row > .column {
   padding: 8px;
-		display: flex;
-  justify-content: space-around;
 }
 
 
