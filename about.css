@@ -21,7 +21,9 @@ img {
   border-radius: 50%;
   width:50%;
   height: auto;
+  overflow:hidden;
 }
+
 
 .navbar {
   overflow: hidden;
