@@ -63,6 +63,7 @@ img {
 }
 input[type=text], select, textarea {
     width: 200px;
+  height: 500px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
