@@ -19,8 +19,8 @@ p {
 img {
   float: left;
   border-radius: 50%;
-  width:50%;
-  height: auto;
+  width:auto;
+  height: 30;
   overflow:hidden;
 }
 
