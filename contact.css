@@ -68,7 +68,6 @@ input[type=text], select, textarea {
   text-align: right;
     width: 50%;
   height: 100%;
-	z-index: 1;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
