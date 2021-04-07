@@ -88,6 +88,11 @@ p {
 h2{
    text-align: center;
 }
+.row,
+.row > .column {
+  padding: 8px;
+}
+
 .row {
     margin: 10px -16px;
 }
