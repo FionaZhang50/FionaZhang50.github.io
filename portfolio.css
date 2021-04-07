@@ -99,7 +99,8 @@ h2{
 
 
 .column {
-	float: left;
+	display: flex;
+  justify-content: space-around;
   width: 25%;
   display: none; 
 }
