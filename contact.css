@@ -65,6 +65,7 @@ img {
   padding: 10px;
 }
 input[type=text], select, textarea {
+	float: right;
     width: 50%;
   height: 100%;
 	z-index: 1;
