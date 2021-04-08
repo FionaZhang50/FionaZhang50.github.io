@@ -100,7 +100,7 @@ h2{
 .column {
 	display: flex;
   justify-content: space-around;
-  width: 25%;
+  width: 75%;
   display: none; 
 }
 
