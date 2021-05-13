@@ -23,6 +23,7 @@
   <button class="btn" onclick="filterSelection('acrylic')"> Acrylic</button>
   <button class="btn" onclick="filterSelection('digitalillustration')"> Digital Illustration</button>
    <button class="btn" onclick="filterSelection('miscellaneous')"> Miscellaneous Art Projects</button>
+  <button class="btn" onclick="filterSelection('oil')"> Oil</button>
 </div>
 <div class="row">
     <div class="column watercolor">
@@ -71,6 +72,13 @@
     </div>
   </div>
 </div>
+    
+      <div class="column oil">
+    <div class="content">
+      <img id="myImg8" src="https://user-images.githubusercontent.com/80066993/118175312-cbeaa500-b3e4-11eb-9c01-fa4c0a20d5c7.jpg" alt="Background" style="width:75%">
+      <h4>Golden State Golden Dreams</h4>
+    </div>
+  </div>
     </div>
   <div id="myModal" class="modal">
   <span class="close">&times;</span>
@@ -179,6 +187,14 @@ img.onclick = function(){
 }
         // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg7');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+    var img = document.getElementById('myImg8');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
