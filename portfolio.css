@@ -98,8 +98,7 @@ h2{
 }
 
 .column {
-	display: flex;
-  justify-content: space-around;
+  float: left;
   width: 25%;
   display: none; 
 }
