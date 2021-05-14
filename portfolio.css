@@ -89,6 +89,11 @@ h2{
 .row > .column {
   padding: 12px;
 }
+.row,
+.row < .column {
+  padding: 12px;
+}
+
 
 .row {
     margin: 15px -16px;
