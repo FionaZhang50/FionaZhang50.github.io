@@ -96,7 +96,6 @@ h2{
 }
 
 .column {
-  float: left;
   width: 33.3%;
   display: none; 
 }
