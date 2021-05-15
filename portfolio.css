@@ -85,10 +85,7 @@ p {
 h2{
    text-align: center;
 }
-.row,
-.row > .column {
-  padding: 8px;
-}
+
 
 
 .row {
@@ -96,6 +93,7 @@ h2{
 }
 
 .column {
+	float: left;
   width: 33.3%;
   display: none; 
 }
