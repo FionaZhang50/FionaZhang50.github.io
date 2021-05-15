@@ -104,11 +104,6 @@ h2{
   clear: both;
 }
 
-.content {
-  background-color: white;
-  padding: 2px;
-}
-
 .show {
   display: block;
 }
