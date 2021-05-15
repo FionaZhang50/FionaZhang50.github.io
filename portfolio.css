@@ -87,11 +87,7 @@ h2{
 }
 .row,
 .row > .column {
-  padding: 12px;
-}
-.row,
-.row < .column {
-  padding: 12px;
+  padding: 8px;
 }
 
 
