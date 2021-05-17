@@ -99,8 +99,13 @@ h2{
 	width: 25%;
 }
 
-&_thumb{
+.content{
 	position: relative;
+}
+img {
+		display: block;
+		width: 100%;
+		transition: .3s;
 }
 
 .show {
