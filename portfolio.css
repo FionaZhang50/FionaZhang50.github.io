@@ -102,9 +102,6 @@ h2{
 }
 
 img {
-		display: block;
-		width: 100%;
-		transition: .3s;
 	position: relative;
 }
 
