@@ -94,12 +94,12 @@ h2{
     padding: 2px;
     transition: .3s;
 }
-
 .column {
-	float: left;
-  width: 33.3%;
-  display: none; 
-}
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+	}
+
 
 .row:after {
   content: "";
