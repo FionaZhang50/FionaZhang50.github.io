@@ -98,14 +98,13 @@ h2{
 	flex-direction: column;
 	width: 25%;
 }
-img {
-		display: block;
-		width: 100%;
-		transition: .3s;
-}
 
 .show {
   display: block;
+}
+
+.content{
+	position: relative;
 }
 
 .btn {
