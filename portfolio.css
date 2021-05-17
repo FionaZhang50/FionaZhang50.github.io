@@ -98,10 +98,6 @@ h2{
 	flex-direction: column;
 	width: 25%;
 }
-
-.content{
-	position: relative;
-}
 img {
 		display: block;
 		width: 100%;
