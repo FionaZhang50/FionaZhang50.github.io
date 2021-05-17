@@ -90,6 +90,9 @@ h2{
 
 .row {
     margin: 15px -16px;
+    display: flex;
+    padding: 2px;
+    transition: .3s;
 }
 
 .column {
