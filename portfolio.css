@@ -108,6 +108,7 @@ img {
 		display: block;
 		width: 100%;
 		transition: .3s;
+	position: relative;
 }
 
 .btn {
