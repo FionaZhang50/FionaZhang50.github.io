@@ -104,7 +104,11 @@ h2{
   display: block;
 }
 
-
+img {
+		display: block;
+		width: 100%;
+		transition: .3s;
+}
 
 .btn {
   border: none;
