@@ -89,23 +89,17 @@ h2{
 
 
 .row {
-    margin: 15px -16px;
     display: flex;
     padding: 2px;
     transition: .3s;
 }
 .column {
-		display: flex;
-		flex-direction: column;
-		width: 25%;
-	}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
 }
+
+
 
 .show {
   display: block;
