@@ -99,7 +99,9 @@ h2{
 	width: 25%;
 }
 
-
+&_thumb{
+	position: relative;
+}
 
 .show {
   display: block;
