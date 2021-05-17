@@ -85,21 +85,18 @@ p {
 h2{
    text-align: center;
 }
-
-
-
 .row {
     display: flex;
     padding: 2px;
     transition: .3s;
-}
-.column {
+
+& .column {
 	display: flex;
 	flex-direction: column;
 	width: 25%;
 	  display: none;
 }
-
+}
 .show {
   display: block;
 }
