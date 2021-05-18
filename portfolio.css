@@ -103,11 +103,6 @@ h2{
 .show {
   display: block;
 }
-
-img {
-	position: relative;
-}
-
 .btn {
   border: none;
   outline: none;
