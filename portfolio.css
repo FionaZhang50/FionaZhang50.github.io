@@ -104,6 +104,7 @@ h2{
 
 .show {
   display: block;
+	position: relative;
 }
 .btn {
   border: none;
