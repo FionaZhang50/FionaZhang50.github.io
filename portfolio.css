@@ -85,6 +85,10 @@ p {
 h2{
    text-align: center;
 }
+.row,
+.row > .column {
+  padding: 8px;
+}
 .row {
     padding: 2px;
     transition: .3s;
