@@ -91,7 +91,6 @@ h2{
     transition: .3s;
 
 & .column {
-	display: flex;
 	flex-direction: column;
 	width: 25%;
 	  display: none;
