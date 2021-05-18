@@ -97,7 +97,7 @@ h2{
 }
 .column {
 	flex-direction: column;
-	width: 33.3%;
+	width: 50%;
 	  display: none;
 
 }
