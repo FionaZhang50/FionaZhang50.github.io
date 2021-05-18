@@ -89,12 +89,12 @@ h2{
     display: flex;
     padding: 2px;
     transition: .3s;
+}
 
-& .column {
+.column {
 	flex-direction: column;
 	width: 25%;
 	  display: none;
-}
 }
 img{
 			margin: 2px;
