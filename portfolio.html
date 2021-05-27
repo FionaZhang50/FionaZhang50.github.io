@@ -50,6 +50,11 @@
       <img id="myImg4" src="https://user-images.githubusercontent.com/80066993/111520230-22a16e80-8715-11eb-9acf-1f6bb0516a98.jpg" alt="Eye Painting" style="width:100%">
     </div>
   </div>
+    <div class="column acrylic">
+    <div class="content">
+      <img id="myImg9" src="https://user-images.githubusercontent.com/80066993/119872213-11749b00-bed8-11eb-9cbc-91c317043db7.jpg" alt="Starry Night" style="width:100%">
+    </div>
+  </div>
 
           <div class="column digitalillustration">
     <div class="content">
@@ -191,6 +196,14 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
     var img = document.getElementById('myImg8');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+        var img = document.getElementById('myImg9');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
