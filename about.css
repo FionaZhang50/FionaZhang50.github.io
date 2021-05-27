@@ -20,7 +20,7 @@ p {
 				  -1px -1px 0 #000;
 }
 }
-img {
+.image-cropper {
   float: left;
   border-radius: 50%;
   width:30%;
