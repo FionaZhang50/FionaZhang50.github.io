@@ -96,11 +96,8 @@ h2{
 	display: flex;
 	flex-direction: column;
 	width: 25%;
+	display: none;
 
-}
-.content {
-			margin: 2px;
-		overflow: hidden;
 }
 .row,
 .row > .column {
@@ -111,9 +108,6 @@ h2{
   display: block;
 
 }
-.thumb {
-		position: relative;
-	}
 .btn {
   border: none;
   outline: none;
