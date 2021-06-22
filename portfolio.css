@@ -110,7 +110,10 @@ width 33.33%;
   display: block;
 
 }
-
+img {
+  max-width: 50%;
+  height: auto;
+}
 .btn {
   border: none;
   outline: none;
