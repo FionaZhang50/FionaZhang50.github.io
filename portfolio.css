@@ -89,18 +89,19 @@ h2{
 }
 
 .row {
-  margin: 8px -16px;
+  margin: 5px-10px;
 }
 
 .column {
-	  float: left;
-	  width 33.33%;
+float: left;
+width 33.33%;
   display: none;
 
 }
+
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 2px;
 }
 .row:after {
   content: "";
