@@ -92,9 +92,7 @@ h2{
 	  flex-wrap: wrap;
 
 }
-row:last-child {
-  flex-grow: 10;
-}
+
 .column {
 	    padding: 2px;
 	  height: 40vh;
