@@ -28,6 +28,12 @@ img {
   overflow:hidden;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
 
 .navbar {
   overflow: hidden;
