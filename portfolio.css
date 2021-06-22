@@ -111,6 +111,9 @@ h2{
   display: block;
 
 }
+.thumb {
+		position: relative;
+	}
 .btn {
   border: none;
   outline: none;
