@@ -87,17 +87,12 @@ h2{
 }
 
 .row {
-	width: 25%;
-	display: none;
-	  flex-wrap: wrap;
-
+  margin: 8px -16px;
 }
 
 .column {
-	    padding: 2px;
-	  height: 40vh;
-  flex-grow: 1;
-
+	  width 25%
+  display: none
 
 }
 .row,
