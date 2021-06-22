@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: powderblue;
 }
@@ -109,8 +112,6 @@ h2{
   display: block;
 
 }
-
-
 
 .btn {
   border: none;
