@@ -97,6 +97,7 @@ h2{
 	flex-direction: column;
 	width: 25%;
 	display: none;
+	  flex-wrap: wrap;
 
 }
 .row,
