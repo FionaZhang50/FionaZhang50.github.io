@@ -95,7 +95,6 @@ h2{
 .column {
 	display: flex;
 	flex-direction: column;
-	  display: none;
 	width: 25%;
 
 }
