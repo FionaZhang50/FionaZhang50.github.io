@@ -35,6 +35,11 @@ img {
   padding: 20px;
 }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .navbar {
   overflow: hidden;
   background-color: #f2e6ff;
