@@ -91,7 +91,7 @@ h2{
   padding: 0 4px;
 }
 .column {
-  flex: 25%;
+  flex: 33.33%;
   max-width: 25%;
   padding: 0 4px;
 	display: none;
@@ -121,7 +121,7 @@ h2{
   }
 }
 .show {
-  display: flex;
+  display: block;
 
 }
 
