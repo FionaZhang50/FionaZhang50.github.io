@@ -105,7 +105,10 @@ img {
   vertical-align: bottom;
 }
 
+.show {
+  display: block;
 
+}
 
 .btn {
   border: none;
