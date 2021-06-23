@@ -102,10 +102,7 @@ h2{
   vertical-align: middle;
   width: 100%;
 }
-.row,
-.row > .column {
-  padding: 8px;
-}
+
 
 .show {
   display: block;
