@@ -92,6 +92,7 @@ h2{
 .column {
   height: 40vh;
   flex-grow: 1;
+	display: none;
 
 }
 .column: last-child{
@@ -104,19 +105,7 @@ img {
   vertical-align: bottom;
 }
 
-.row,
-.row > .column {
-  padding: 2px;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.show {
-  display: block;
 
-}
 
 .btn {
   border: none;
