@@ -89,9 +89,8 @@ h2{
 
 
 .column {
-float: left;
-width: 33.333%;
-  display: none;
+  height: 40vh;
+  flex-grow: 1;
 
 }
 img {
