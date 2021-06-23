@@ -85,9 +85,10 @@ p {
 h2{
    text-align: center;
 }
-
-
-
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
 .column {
   height: 40vh;
   flex-grow: 1;
