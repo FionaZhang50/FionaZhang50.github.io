@@ -19,11 +19,23 @@ p {
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
 }
-img {
-  border-radius: 100%;
-  width: 40%;
-  height: auto;
-  vertical-align: middle;
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 .center {
   display: block;
