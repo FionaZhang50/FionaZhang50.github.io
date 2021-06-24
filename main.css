@@ -25,6 +25,10 @@ p {
   text-align: center;
   color: white;
 }
+img{
+	  max-width: 100%;
+  height: auto;
+}
 
 .greeting {
   position: absolute;
