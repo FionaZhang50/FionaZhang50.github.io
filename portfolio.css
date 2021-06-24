@@ -92,13 +92,13 @@ h2{
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 5px;
+  padding: 7px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 15%;
+  width: 17.5%;
   display: none; /* Hide all elements by default */
 }
 
