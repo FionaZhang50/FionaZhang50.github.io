@@ -25,9 +25,6 @@ p {
   text-align: center;
   color: white;
 }
-img{
-	clip:rect(10px,100px,50px,10px);
-}
 
 .greeting {
   position: absolute;
