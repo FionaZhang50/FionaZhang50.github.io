@@ -25,6 +25,18 @@ p1{
 	font-family: 'Poiret One', cursive; font-size: 25px;
 	font-weight: bold;
 }
+p2{
+	color: black;
+	font-family: 'Poiret One', cursive; font-size: 25px;
+	font-weight: bold;
+}
+
+p3{
+	color: black;
+	font-family: 'Poiret One', cursive; font-size: 25px;
+	font-weight: bold;
+}
+
 
 .column {
   float: left;
