@@ -81,13 +81,13 @@ h2{
    text-align: center;
 }
 .row {
-  margin: 10px -16px;
+  margin: 8px -14px;
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 15px;
+  padding: 8px;
 }
 
 /* Create three equal columns that floats next to each other */
