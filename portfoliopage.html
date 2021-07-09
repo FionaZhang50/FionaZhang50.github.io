@@ -54,6 +54,11 @@
       <img id="myImg9" src="https://user-images.githubusercontent.com/80066993/119872213-11749b00-bed8-11eb-9cbc-91c317043db7.jpg" alt="Starry Night" style="width:100%">
           </div>
   </div>
+      <div class="column acrylic">
+    <div class="content">
+      <img id="myImg11" src="  https://user-images.githubusercontent.com/80066993/125031094-f94c7b80-e040-11eb-99b7-da3e277f40de.jpg" alt="My Life in America" style="width:100%">
+          </div>
+  </div>
 
     <div class="column miscellaneous">
     <div class="content">
@@ -225,6 +230,14 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
         var img = document.getElementById('myImg10');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+            var img = document.getElementById('myImg11');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
