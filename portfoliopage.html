@@ -97,6 +97,11 @@
       <img id="myImg5" src="https://user-images.githubusercontent.com/80066993/111680089-171a7a00-87df-11eb-9d3a-ec542a702e86.jpg" alt="One World Together" style="width:100%">
     </div>
   </div> 
+      <div class="column digitalillustration">
+    <div class="content">
+      <img id="myImg12" src="  https://user-images.githubusercontent.com/80066993/126211076-d2e1939f-6a51-477f-a1db-e71a4aa61259.JPG" alt="One World Together" style="width:100%">
+    </div>
+  </div> 
   </div>
     </div>
   <div id="myModal" class="modal">
@@ -238,6 +243,14 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
             var img = document.getElementById('myImg11');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+                var img = document.getElementById('myImg12');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
