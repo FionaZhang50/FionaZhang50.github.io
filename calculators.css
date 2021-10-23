@@ -29,6 +29,9 @@ p{
 .row {
   display: flex;
 }
+.row2 {
+  display: flex;
+}
 
 .column {
   flex: 33.33%;
