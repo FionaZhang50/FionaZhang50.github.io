@@ -105,9 +105,10 @@
   </div> 
         <div class="column digitalillustration">
     <div class="content">
-      <img id="myImg12" src="https://user-images.githubusercontent.com/80066993/138541520-825dfe98-d39e-43a4-adfa-55ebcbe8c4a6.JPG" alt="COVID-US" style="width:100%">
+      <img id="myImg13" src="https://user-images.githubusercontent.com/80066993/138541520-825dfe98-d39e-43a4-adfa-55ebcbe8c4a6.JPG" alt="COVID-US" style="width:100%">
     </div>
   </div> 
+  
   </div>
     </div>
   <div id="myModal" class="modal">
@@ -257,6 +258,14 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
                 var img = document.getElementById('myImg12');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+                    var img = document.getElementById('myImg13');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
